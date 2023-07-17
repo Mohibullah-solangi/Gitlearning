@@ -1,0 +1,37 @@
+// git commands
+
+//git status
+//git init
+//git log
+//git config --global user.name "name"
+//git config --global email.name "email"
+//git add file name   //for particular files
+//git add --a   //for all files to staging 
+//git commit -m "message"
+//git clone "url of github reposiotry"
+//pwd
+//ls
+//cd 
+//touch filename                                         //create file in repository
+//touch .gitignore                                       //use to ignore files which is not need to be staged or commit 
+// *.log or any other extension                            in gitignore will ignore all files with same extension
+//foldername/                                            use to ignore all folder with such names inner or outer in gitignore 
+//  /foldername/                                         folder in some inner folder will not be ignored only outer folder will be ignored
+//git diff                                               compare staging area file to working directory
+//git diff --staged                                      compare previuos commmit with stage area
+//git commit -a -m "message"                             direct commit ignoring stage area only for tracked file untracked file will not be commited
+//git rm filename                                       //delete file form repositpry
+//git mv oldname newname                                //rename the file and staged
+//git rm --cached                                       //used to remove file from tracking after placed in gitignore
+//rm -rf .git                                            //delete .git file making folder non repository
+//git log -p                                            //brief about log with commit and everything
+//git log --stat                                      //short brief of logs with diff
+//git log --pretty=oneline                              oneline log breif
+//git log --pretty=short
+//git log --since=2.days                                //timeline for logs
+//git log --pretty=format:"%h -- %an"                   refer git documention on website for details  gives details in perticular format
+//git commit --amend                                    change in previuos commit
+                                                        // new command line will open for amend use i to start writing esc :wq        emand completed
+//git  restore --staged filename                         remove file from stage area
+//git checkout -- filename                               make file unmodified or undo changes  on non staged modified file
+//git checkout -f                                         make tree clean and match to previous commit and remove all modified files 
